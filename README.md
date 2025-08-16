@@ -1,71 +1,69 @@
 
+# WantMore Pizza Ordering App 🍕 
 
-# WantMore Pizza Ordering App 🍕  
+A full-featured pizza ordering application with sample order receipts and integrated PostgreSQL database for tracking and managing orders.
 
-Welcome to **WantMore Pizza Ordering App**, a full-featured Python application that lets users place pizza orders, generate receipts, and track order data with an integrated PostgreSQL database.  
+## 📂 Repository Contents
 
+This repository includes:  
 
-## 📂 Repository Content
-
-WantMore_Pizza_Ordering_App/
-│
-├─ WantMore_Pizza_App.py # Python source code for the ordering system
-├─ order_receipt/ # Sample receipts generated from orders
-├─ orders_data/ # CSV/ export of orders from PostgreSQL
-├─ Pizza_DB.sql # SQL file to create Pizza_DB database and orders table
-└─ README.md # Project documentation
+- **WantMore_Pizza_App/** – The Python source code for the pizza ordering system.  
+- **order_receipt/** – Sample text receipts generated from orders.  
+- **orders_data/** – Sample order data exported from the integrated PostgreSQL database.  
+- **Pizza_DB.sql** – SQL file to create the `Pizza_DB` database and `orders` table.  
 
 
-## Features
-- Place pizza orders through a Python application
-- Generate and save detailed receipts for each order
-- Apply discounts (including special Pizza of the Day)
-- Store and retrieve orders in a PostgreSQL database
-- Admin functions to add, edit, or delete pizzas
+## 🚀 Getting Started
 
----
+### 1. Clone the Repository
 
-## Setup Instructions
-
-### 1. Clone the repository
-
-```bash
 git clone https://github.com/ogaga1989/WantMore_Pizza_Ordering_App.git
 cd WantMore_Pizza_Ordering_App
 
+### 2. Set Up the Database
 
-2. Setup the database
+Make sure PostgreSQL is installed and running, then run the `Pizza_DB.sql` script to create the database and orders table:
 
- * Ensure PostgreSQL is installed.
- * Run the SQL script to create the database and orders table:
-  
-   psql -U <your_username> -f Pizza_DB.sql
+psql -U <your_postgres_user> -f Pizza_DB.sql
 
+Update the database credentials in `WantMore_Pizza_App` if needed (`DB_CONFIG` dictionary).  
 
-3. Install Python dependencies
-   pip install -r requirements.txt
+### 3. Install Dependencies
 
+Ensure you have Python installed (3.8+ recommended), then install required packages:
 
-4. Run the application
-   python WantMore_Pizza_App.py
+pip install psycopg2
 
+*(Add any other dependencies if needed.)*
 
-5. Usage
+### 4. Run the Application
 
- * Place an order using the Python application.
+Navigate to the Python source folder and run the app:
 
- * View your receipt in the order_receipt/ folder.
+python WantMore_Pizza_App.py
 
- * Track all orders using the PostgreSQL database
+Follow the on-screen prompts to place orders, generate receipts, and manage pizzas.  
 
-Access sample data
+---
 
- * Receipts are saved in the order_receipt/ folder.
+## 📄 Sample Outputs
 
- * Exported order data is in the orders_data/ folder.
+- Receipts are saved in the `order_receipt/` folder.  
+- Sample order data is stored in `orders_data/`.  
 
+---
 
-License
+## 🔧 Features
 
-This project is open source. Feel free to use, modify, or contribute
+- Place pizza orders by box or slice.  
+- Special **Pizza of the Day** discounts automatically applied.  
+- Generate and save receipts locally and via email.  
+- Admin functions to add, edit, or delete pizzas.  
+- Integrated PostgreSQL database for tracking and managing orders.  
+
+---
+
+## 💻 License
+
+This project is open-source and available for educational and personal use.
 

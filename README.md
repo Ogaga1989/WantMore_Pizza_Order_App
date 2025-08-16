@@ -1,5 +1,5 @@
 
-# WantMore Pizza Ordering App 🍕 
+# WantMore Pizzaria Ordering App 🍕 
 
 A full-featured pizza ordering application with sample order receipts and integrated PostgreSQL database for tracking and managing orders.
 

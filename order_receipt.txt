@@ -1,0 +1,12 @@
+===== RUSHMORE PIZZERIA RECEIPT =====
+Receipt ID   : 7a5cc3cf-e739-47e4-9c5c-ac342be8a462
+Date/Time    : 2025-08-15 17:00:01.528348
+--------------------------------------
+Chocolate (Slice) x5 = $5.62
+  -> Discount Applied: 25%
+  🎉 Special Pizza of the Day Discount Applied! Enjoy your 25% off!
+Chicken (Box) x6 = $24.30
+  -> Discount Applied: 10%
+--------------------------------------
+TOTAL: $29.93
+======================================

@@ -1,0 +1,6 @@
+"id","order_datetime","pizza_type","order_type","quantity","total_price","discount_applied"
+"46b8333b-820e-4be8-b1a0-b6d1b43a4d73","2025-07-05 19:59:20.069835","Vegetable","Box",4,"16.0",False
+"8392e231-5c7a-4ae7-b3f2-41d92f114aa0","2025-07-05 20:34:02.269152","Cheese","Slice",4,"1.8599999999999999",True
+"97da2097-ce7e-44e7-97d2-835bf8cbb736","2025-07-05 20:26:45.64886","Pepperoni","Slice",4,"1.5",True
+"a48abe7b-d36b-4a01-b425-d6683f2f51bf","2025-07-05 19:59:20.069835","Chicken","Slice",9,"3.7800000000000007",True
+"d62273fa-15c8-4bef-b3ae-14c305a55d7b","2025-07-05 20:28:51.563931","Deluxe","Slice",4,"2.25",True

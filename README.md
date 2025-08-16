@@ -18,33 +18,33 @@ This repository includes:
 ### 1. Clone the Repository
 
 git clone https://github.com/ogaga1989/WantMore_Pizza_Ordering_App.git
+
 cd WantMore_Pizza_Ordering_App
 
 ### 2. Set Up the Database
 
-Make sure PostgreSQL is installed and running, then run the `Pizza_DB.sql` script to create the database and orders table:
+- Make sure PostgreSQL is installed and running, then run the `Pizza_DB.sql` script to create the   database and orders table:
 
 psql -U <your_postgres_user> -f Pizza_DB.sql
 
-Update the database credentials in `WantMore_Pizza_App` if needed (`DB_CONFIG` dictionary).  
+- Update the database credentials in `WantMore_Pizza_App` if needed (`DB_CONFIG` dictionary).  
 
 ### 3. Install Dependencies
 
-Ensure you have Python installed (3.8+ recommended), then install required packages:
+- Ensure you have Python installed (3.8+ recommended), then install required packages:
 
 pip install psycopg2
 
-*(Add any other dependencies if needed.)*
+- Add any other dependencies if needed
 
 ### 4. Run the Application
 
-Navigate to the Python source folder and run the app:
+- Navigate to the Python source folder and run the app:
 
 python WantMore_Pizza_App.py
 
-Follow the on-screen prompts to place orders, generate receipts, and manage pizzas.  
+- Follow the on-screen prompts to place orders, generate receipts, and manage pizzas.  
 
----
 
 ## 📄 Sample Outputs
 

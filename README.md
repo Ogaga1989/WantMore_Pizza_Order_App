@@ -7,7 +7,7 @@ A full-featured pizza ordering application with sample order receipts and integr
 
 This repository includes:  
 
-- **WantMore_Pizza_App/** – The Python source code for the pizza ordering system.  
+- **WantMore_Pizza_App/** – The Python source code for the pizza ordering for both terminal and graphic user interface systems  
 - **order_receipt/** – Sample text receipts generated from orders.  
 - **orders_data/** – Sample order data exported from the integrated PostgreSQL database.  
 - **Pizza_DB.sql** – SQL file to create the `Pizza_DB` database and `orders` table.  
